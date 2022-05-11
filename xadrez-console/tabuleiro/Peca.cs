@@ -1,4 +1,4 @@
-﻿namespace tabuleiro 
+﻿namespace tabuleiro
 {
     abstract class Peca
     {
@@ -32,7 +32,7 @@
             {
                 for (int j = 0; j < tab.colunas; j++)
                 {
-                    if (mat[i,j])
+                    if (mat[i, j])
                     {
                         return true;
                     }
